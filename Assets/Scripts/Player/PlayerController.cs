@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float MOVE_SPEED;
+
     public LayerMask solidObjectsLayer;
     
     private bool isMoving;
